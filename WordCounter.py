@@ -17,7 +17,7 @@ contains_ei = words.word.str.contains('ei', regex=False, case=False)
 
 print('Based on our data, out of', words.shape[0], 'words there are', contains_ie[contains_ie == True].count(), 'words with "ie" and', contains_ei[contains_ei == True].count(), 'words with "ei"')
 
-exceptions = words.word.str.contains('cie', regex=False, case=False) | words.word.str.contains('cei', regex=False, case=False)
+exceptions = words.word.str.contains('cie', regex=False, case=False)
 followers = (contains_ie | contains_ei) & (exceptions == False)
 
 exceptions_count = exceptions[exceptions == True].count()

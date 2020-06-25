@@ -1,4 +1,4 @@
 Based on our data, out of 20000 words there are 620 words with "ie" and 169 words with "ei"
-Based on our data, there are 708 cases that follow the rule and 79 cases that violate the rule 
+Based on our data, there are 732 cases that follow the rule and 55 cases that violate the rule 
 
-Thus, the rule applies 90 % of the time
+Thus, the rule applies 93 % of the time
